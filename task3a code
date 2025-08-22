@@ -1,0 +1,9 @@
+import pandas as pd
+df = pd.read_csv(r"C:\Users\tdeer\OneDrive\ドキュメント\friance new.csv")
+central_tendency = pd.DataFrame({
+    "Mean": df.mean(numeric_only=True),
+    "Median": df.median(numeric_only=True),
+    "Mode": df.mode(numeric_only=True).iloc[0]
+})
+print("=== Central Tendency (Mean, Median, Mode) ===")
+print(central_tendency)
