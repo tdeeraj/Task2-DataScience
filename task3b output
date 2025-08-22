@@ -1,0 +1,37 @@
+=== Outlier Count per Column ===
+Surname                   0
+CreditScore             331
+Age                    7049
+Tenure                    0
+Balance                   0
+NumOfProducts           535
+HasCrCard             43550
+IsActiveMember            0
+Exited                36957
+France                    0
+Germany               37114
+Spain                 38689
+Female                    0
+Male                      0
+Mem__no__Products         0
+Age_Tenure_product      940
+dtype: int64
+
+=== Skewness and Kurtosis ===
+                    Skewness  Kurtosis
+Surname            -0.146423 -1.139080
+CreditScore        -0.065972 -0.075724
+Age                 0.979867  1.567424
+Tenure              0.006709 -1.158018
+Balance             0.350636 -1.612602
+NumOfProducts       0.393020 -0.218600
+HasCrCard          -1.162011 -0.649738
+IsActiveMember      0.004982 -1.999998
+Exited              1.415518  0.003691
+France             -0.270069 -1.927085
+Germany             1.408936 -0.014900
+Spain               1.344535 -0.192227
+Female              0.255484 -1.934750
+Male               -0.255484 -1.934750
+Mem__no__Products   0.523750 -1.195885
+Age_Tenure_product  0.548636  0.040711
