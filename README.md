@@ -1,4 +1,4 @@
-# Task2-DataScience
+DataScience
 Descriptive Statistics using Seaborn Tips dataset
 OUTPUT:
 First 5 rows:
